@@ -1,0 +1,27 @@
+.title {
+    font-size: 1.3rem;
+    width: 25ch;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 0.15em solid #ffc83b;
+    animation: typing 2s steps(22), blink 0.5s step-end infinite alternate;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+
+}
+
+@keyframes blink {
+    50% {
+        border-color: #ffc83db4;
+    }
+}
+
+@media (max-width:768px) {
+    .subtitle {
+        font-size: 1.5rem;
+    }
+}

@@ -1,0 +1,36 @@
+.header {
+    background-color: rgba(0, 0, 0, 0.197);
+}
+
+
+.nav {
+    padding-right: 5px;
+    padding-top: 3px;
+    font-size: large;
+}
+
+
+.links-wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-left: 5px;
+    max-width: 100%;
+    gap: 7rem;
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+    color: white;
+}
+
+.link:hover {
+    color: #b2b0b0;
+}
+
+@media (max-width:768px) {
+    .links-wrapper {
+        gap: 4rem;
+    }
+}

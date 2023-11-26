@@ -1,0 +1,36 @@
+.back-icon {
+    justify-content: center;
+    display: flex;
+    align-items: end;
+    color: red;
+    height: 2rem;
+    width: 4rem;
+    border-radius: 10px;
+}
+
+.back-icon:hover {
+    animation: moveLeft 1s infinite;
+    color: aqua;
+}
+
+@keyframes moveLeft {
+    0% {
+        transform: translateX(0px);
+
+    }
+
+    50% {
+        transform: translateX(-20px);
+    }
+
+    100% {
+        transform: translateX(0px);
+    }
+}
+
+@media screen and (max-width:786px) {
+    .todo-title {
+        text-align: center;
+        font-size: large;
+    }
+}
