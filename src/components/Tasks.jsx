@@ -109,8 +109,8 @@ export const Tasks = () => {
           {(todoIndex === -1 && onClickCheck) && <span style={{ opacity: 0.5 }}>
             {todos.length + 1}.{todo}</span>}
         </div>
-        {todos.length ? (<button onClick={removeAllTasks} className='clear-all-btn'>clear all</button>) : (<></>)}
       </div>
+      {todos.length ? (<button onClick={removeAllTasks} className='clear-all-btn'>clear all</button>) : (<></>)}
     </div>
 
   )
