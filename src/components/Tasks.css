@@ -87,6 +87,20 @@
     white-space: nowrap;
 }
 
+.clear-all-btn {
+    background: linear-gradient(to right, red, yellow);
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    padding: 0 10px;
+    font-size: 15px;
+    box-shadow: 0 0 0 1px #ffff;
+    width: 24%;
+    height: 2rem;
+    cursor: pointer;
+}
+
+
+
 @media (max-width:768px) {
     .todos-wrapper {
         margin-top: 1rem;
@@ -98,6 +112,10 @@
 
     .todo-item {
         width: 21rem;
+    }
+
+    .clear-all-btn {
+        width: 60%;
     }
 }
 
